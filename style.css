@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.color {
+  background-color: aqua;
+  font-size: 50px;
+  color: blue;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+
+}
+
+.img-center {
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+}

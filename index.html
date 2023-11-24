@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MIO CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- MIO CSS -->
+    <title>Hello Vue</title>
+  </head>
+  <body>
+    <div id="pippo">
+      <h1 v-bind:class="myClass">{{ messagge }}</h1>
+      <img :src="imgLink" :alt="imgAlt" :class="myClass2">
+    </div>
+    <!-- VUE -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- VUE -->
+    <!-- MIO JS -->
+    <script src="main.js"></script>
+    <!-- MIO JS -->
+  </body>
+</html>
